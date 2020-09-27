@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Southern Aire Personal Use Only';
+    src: url('SouthernAirePersonalUseOnly.woff2') format('woff2'),
+        url('SouthernAirePersonalUseOnly.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
