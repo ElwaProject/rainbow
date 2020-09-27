@@ -1,11 +1,4 @@
-@font-face {
-	font-family: Southern;
-	src: url(" ../fonts/SouthernAirePersonalUseOnly.woff2") format("woff2"),
-		url("../fonts/SouthernAirePersonalUseOnly.woff") format("woff");
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
-}
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap");
 /* fonts  */
 
 /* reset */
@@ -164,7 +157,7 @@ body {
 }
 
 .tiny-toon .subtitle {
-	font-family: Souther2n, "Segoe Script";
+	font-family: Southergn, "Segoe Script";
 	color: white;
 	text-transform: capitalize;
 	text-shadow: -0 -2px 0 #48a9ff, 0 -2px 0 #48a9ff, -0 2px 0 #48a9ff, 0 2px 0 #48a9ff,
@@ -191,9 +184,10 @@ body {
 	height: 400px;
 	margin: 0 auto;
 	margin-top: 200px;
-	box-shadow: inset 0 0 0 1px black, inset 0 0 0 30px #e70093, inset 0 0 0 200px rgba(0, 0, 0, 0.8),
-		0 0 0 30px #27286c, 0 0 0 60px #0090cf, 0 0 0 90px #007a39, 0 0 0 120px #8cc42a,
-		0 0 0 150px #eaec00, 0 0 0 180px #e2482b, 0 0 0 220px #ac1a1e;
+	box-shadow: inset 0 0 0px 1px black, inset 0 0 0px 30px #e70093,
+		inset 0 0 0px 200px rgba(0, 0, 0, 0.8), 0 0 0px 30px #27286c, 0 0 0px 60px #0090cf,
+		0 0 0px 90px #007a39, 0 0 0px 120px #8cc42a, 0 0 0px 150px #eaec00, 0 0 0px 180px #e2482b,
+		0 0 0px 220px #ac1a1e;
 }
 .tiny-toon .image img {
 	display: block;
@@ -243,10 +237,9 @@ body {
 	font-size: 200px;
 	line-height: 1;
 	font-weight: 700;
+	font-family: "Comfortaa", cursive;
 }
 .text .r {
-	text-transform: uppercase;
-	font-size: 150px;
 	color: #ce181e;
 }
 .text .a {
@@ -254,7 +247,6 @@ body {
 }
 .text .i {
 	color: #ffdd00;
-	font-size: 210px;
 }
 .text .n {
 	color: #008344;
@@ -265,13 +257,9 @@ body {
 }
 .text .o {
 	color: #181d62;
-	text-transform: uppercase;
-	font-size: 150px;
 }
 .text .w {
 	color: #711f7e;
-	text-transform: uppercase;
-	font-size: 150px;
 }
 .text .line {
 	display: inline-block;
@@ -279,7 +267,7 @@ body {
 	height: 138px;
 	box-shadow: 10px 0 0 0 #392f90, 20px 0 0 0 #292a76, 30px 0 0 0 #4892ce, 40px 0 0 0 #24b34b,
 		50px 0 0 0 #f9ed23, 60px 0 0 0 #f26336, 70px 0 0 0 #db1f26;
-	margin: 0 0 -20px -515px;
+	margin: 0 0 -20px -586px;
 	opacity: 0.5;
 }
 .designs {
